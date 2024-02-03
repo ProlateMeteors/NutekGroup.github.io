@@ -2107,7 +2107,7 @@ a.contact_btn:hover {
     transition-delay: 0.45s;
   }
   #cs-navigation .cs-li-link.cs-drop-link {
-    font-size: 1rem;
+    font-size: 1.6rem;
     line-height: 1.5em;
     text-transform: capitalize;
     text-decoration: none;
@@ -2282,7 +2282,7 @@ a.contact_btn:hover {
     flex: none;
   }
   #cs-navigation .cs-li-link {
-    font-size: 1rem;
+    font-size: 1.6rem;
     line-height: 1.5em;
     text-decoration: none;
     margin: 0;
