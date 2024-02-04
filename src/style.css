@@ -1673,6 +1673,7 @@ a.contact_btn:hover {
     top: 2rem;
     left: 50%;
     z-index: 10000;
+    visibility: hidden;
     transform: translateX(-50%);
     transition: top 0.3s, border-radius 0.3s, width 0.3s, max-width 0.3s;
   }
@@ -1750,6 +1751,7 @@ a.contact_btn:hover {
   #cs-navigation .cs-nav {
     /* sends it to the right in the 3rd position */
     order: 3;
+    visibility: visible;
   }
   #cs-navigation .cs-contact-group {
     display: none;
