@@ -726,13 +726,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
                         <li class="nav-item">
-                            <a class="nav-link link text-black display-4" href="#">About</a>
+                            <a class="nav-link link text-black display-4" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link text-black display-4" href="#" aria-expanded="false">Services</a>
+                            <a class="nav-link link text-black display-4" href="services.html" aria-expanded="false">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link text-black display-4" href="#">Contact</a>
+                            <a class="nav-link link text-black display-4" href="contact.html">Contact</a>
                         </li>
                     </ul>
                     <div class="navbar-buttons mbr-section-btn">
@@ -812,9 +812,11 @@
     </section>
     <style>
         .cid-u5TVqzM1Vt {
-            padding-top: 6rem;
-            padding-bottom: 6rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
             background-color: #ffffff;
+            height: 500px;
+            /* Set a fixed height for the grid items */
         }
         
         .cid-u5TVqzM1Vt .item:focus,
@@ -833,6 +835,7 @@
         @media (max-width: 767px) {
             .cid-u5TVqzM1Vt .grid-container {
                 grid-row-gap: 1rem;
+                height: 400px;
             }
         }
         
@@ -886,6 +889,8 @@
             max-width: 100%;
             max-height: 100%;
             object-fit: cover;
+            height: 100%;
+            /* Make the image fill the grid item */
         }
         
         @media (max-width: 767px) {
@@ -941,34 +946,10 @@
         </div>
     </section>
     <style>
-        .cid-u5TVqzMmN1 .mbr-fallback-image.disabled {
-            display: none;
-        }
-        
-        .cid-u5TVqzMmN1 .mbr-fallback-image {
-            display: block;
-            background-size: cover;
-            background-position: center center;
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            background: #000000;
-        }
-    </style>
-    <section class="header18 cid-u5TVqzMmN1 mbr-fullscreen" data-bg-video="https://www.youtube.com/embed/7VrtKdj_nGE?autoplay&#x3D;1&amp;loop&#x3D;1&amp;playlist&#x3D;7VrtKdj_nGE&amp;t&#x3D;20&amp;mute&#x3D;1&amp;playsinline&#x3D;1&amp;controls&#x3D;0&amp;showinfo&#x3D;0&amp;autohide&#x3D;1&amp;allowfullscreen&#x3D;true&amp;mode&#x3D;transparent"
-        id="video-5-u5TVqzMmN1">
-        <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(0, 0, 0);"></div>
-        <div class="container-fluid">
-            <div class="row">
-            </div>
-        </div>
-    </section>
-    <style>
         .cid-u5TVqzMrr0 {
             padding-top: 5rem;
             padding-bottom: 5rem;
-            background-color: var(--dominant-color, #260a30);
+            background-color: #54a1d9;
         }
         
         .cid-u5TVqzMrr0 input {
@@ -1036,7 +1017,7 @@
                 <div class="col-lg-8 mbr-form">
                     <div class="">
                         <h1 class="mbr-section-title mbr-fonts-style mb-5 display-1">
-                            <strong>Ready to Electrify Your World? Subscribe Now!</strong>
+                            <strong>Ready to Spark Your World with Electricity? Subscribe Now!</strong>
                         </h1>
                     </div>
                     <div class="text-wrapper align-left" data-form-type="formoid">
@@ -1051,7 +1032,7 @@
                                 <div data-for="email" class="col-lg-6 col-md-6 col-sm-12 form-group">
                                     <input type="email" name="email" placeholder="test@email.com" data-form-field="email" class="form-control display-7" value="" id="email-header02-0">
                                 </div>
-                                <div class="col-auto mbr-section-btn"><button type="submit" class="w-100 btn btn-primary display-7">Subscribe</button></div>
+                                <div class="col-auto mbr-section-btn"><button type="submit" class="w-100 btn btn-primary display-7">Get </button></div>
                             </div>
                         </form>
                     </div>
@@ -1064,6 +1045,10 @@
             padding-top: 5rem;
             padding-bottom: 5rem;
             background-color: #ffffff;
+            .item-img {
+                display: flex;
+                justify-content: center;
+            }
         }
         
         .cid-u5TVqzM77m .item-subtitle {
@@ -1073,7 +1058,12 @@
         
         .cid-u5TVqzM77m img,
         .cid-u5TVqzM77m .item-img {
-            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        img#promet-logo {
+            width: 100;
         }
         
         .cid-u5TVqzM77m .item:focus,
@@ -1088,6 +1078,8 @@
         @media (max-width: 575px) {
             .cid-u5TVqzM77m .item {
                 margin-bottom: 1rem;
+                display: flex;
+                justify-content: center;
             }
         }
         
@@ -1097,6 +1089,7 @@
             height: 100%;
             display: flex;
             flex-flow: column nowrap;
+            justify-content: center;
         }
         
         .cid-u5TVqzM77m .mbr-section-title {
@@ -1119,6 +1112,11 @@
         
         .cid-u5TVqzM77m img {
             filter: grayscale(1);
+            display: flex;
+        }
+        
+        img.promet {
+            width: 75%;
         }
     </style>
     <section class="features03 cid-u5TVqzM77m" id="partners-1-u5TVqzM77m">
@@ -1133,45 +1131,24 @@
                 </div>
             </div>
             <div class="row">
-                <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2 active">
+                <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-4 active">
                     <div class="item-wrapper">
                         <div class="item-img">
                             <img src="images/partner0.svg" data-slide-to="1" data-bs-slide-to="1">
                         </div>
                     </div>
                 </div>
-                <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
-                    <div class="item-wrapper">
-                        <div class="item-img">
-                            <img src="assets/images/photo-1604076947037-d909e2f10fca.jpeg" data-slide-to="2" data-bs-slide-to="2">
+                <div class="item features-image col-12 col-md-3 col-sm-6 col-lg-4 ">
+                    <div class="item-wrapper ">
+                        <div class="item-img ">
+                            <img src="images/partner2.jpg" data-slide-to="3 " data-bs-slide-to="3 ">
                         </div>
                     </div>
                 </div>
-                <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
-                    <div class="item-wrapper">
-                        <div class="item-img">
-                            <img src="assets/images/photo-1517191434949-5e90cd67d2b6.jpeg" data-slide-to="3" data-bs-slide-to="3">
-                        </div>
-                    </div>
-                </div>
-                <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
-                    <div class="item-wrapper">
-                        <div class="item-img">
-                            <img src="assets/images/photo-1604079628040-94301bb21b91.jpeg" data-slide-to="4" data-bs-slide-to="4">
-                        </div>
-                    </div>
-                </div>
-                <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
-                    <div class="item-wrapper">
-                        <div class="item-img">
-                            <img src="assets/images/photo-1631700611307-37dbcb89ef7e.jpeg" data-slide-to="5" data-bs-slide-to="5">
-                        </div>
-                    </div>
-                </div>
-                <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
-                    <div class="item-wrapper">
-                        <div class="item-img">
-                            <img src="assets/images/photo-1644310972589-643a2099d946.jpeg" data-slide-to="6" data-bs-slide-to="6">
+                <div class="item features-image col-12 col-md-3 col-sm-6 col-lg-4 ">
+                    <div class="item-wrapper ">
+                        <div class="item-img ">
+                            <img src="images/partner11.png" class="promet " data-slide-to="3 " data-bs-slide-to="3 ">
                         </div>
                     </div>
                 </div>
@@ -1182,7 +1159,7 @@
         .cid-u5TVqzMnLD {
             padding-top: 5rem;
             padding-bottom: 5rem;
-            background-color: transparent;
+            background-color: #54a1d9;
         }
         
         .cid-u5TVqzMnLD .mbr-fallback-image.disabled {
@@ -1233,34 +1210,33 @@
             color: #000000;
         }
     </style>
-    <section class="article8 cid-u5TVqzMnLD" id="about-us-8-u5TVqzMnLD">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="card col-md-12 col-lg-10">
-                    <div class="card-wrapper">
-                        <div class="image-wrapper d-flex justify-content-center mb-4">
-                            <img src="assets/images/photo-1565049981953-379c9c2a5d48.jpeg">
+    <section class="article8 cid-u5TVqzMnLD " id="about-us-8-u5TVqzMnLD ">
+        <div class="container ">
+            <div class="row justify-content-center ">
+                <div class="card col-md-12 col-lg-10 ">
+                    <div class="card-wrapper ">
+                        <div class="image-wrapper d-flex justify-content-center mb-4 ">
+                            <img src="assets/images/photo-1565049981953-379c9c2a5d48.jpeg ">
                         </div>
-                        <div class="card-content-text">
-                            <h3 class="card-title mbr-fonts-style mbr-white mt-3 mb-4 display-2">
-                                <strong>Electrifying Expertise</strong>
+                        <div class="card-content-text ">
+                            <h3 class="card-title mbr-fonts-style mbr-white mt-3 mb-4 display-2 ">
+                                <strong>Why Choose Us</strong>
                             </h3>
-                            <div class="row card-box align-left">
-                                <div class="item features-without-image col-12">
-                                    <div class="item-wrapper">
-                                        <p class="mbr-text mbr-fonts-style display-7">Welcome to the realm of electrifying engineering where sparks fly and circuits come to life! Our team of electric engineers are masters of the current, dealing with electricity like wizards wield magic. Get ready
-                                            to be shocked by our innovative solutions and electrifying projects!</p>
+                            <div class="row card-box align-left ">
+                                <div class="item features-without-image col-12 ">
+                                    <div class="item-wrapper ">
+                                        <p class="mbr-text mbr-fonts-style display-7 ">Our 24-hour callout service, unparalleled after-sales maintenance packages, and guarantees on all works and products guaranteed by SABS have led us to become the leaders of electrical services in the industrial,
+                                            residential, and commercial sectors. </p>
                                     </div>
                                 </div>
-                                <div class="item features-without-image col-12">
-                                    <div class="item-wrapper">
-                                        <p class="mbr-text mbr-fonts-style display-7">At our core, we are the conductors of creativity and the transformers of technology. We don&#x27;t just meet expectations; we exceed them with a jolt of excellence. When it comes to quotes, we don&#x27;t just provide
-                                            them; we make them dance with energy and excitement!</p>
+                                <div class="item features-without-image col-12 ">
+                                    <div class="item-wrapper ">
+                                        <p class="mbr-text mbr-fonts-style display-7 ">Responding to the needs of our customers with superior products and service is what being "Always On " means, but don't take our word for it – contact us today and discover Nutek quality for yourself!</p>
                                     </div>
                                 </div>
-                                <div class="item features-without-image col-12">
-                                    <div class="item-wrapper">
-                                        <p class="mbr-text mbr-fonts-style display-7"></p>
+                                <div class="item features-without-image col-12 ">
+                                    <div class="item-wrapper ">
+                                        <p class="mbr-text mbr-fonts-style display-7 "></p>
                                     </div>
                                 </div>
                             </div>
@@ -1270,293 +1246,16 @@
             </div>
         </div>
     </section>
-    <style>
-        .cid-u5TVqzM6d6 {
-            padding-top: 6rem;
-            padding-bottom: 6rem;
-            background-color: #ffffff;
-        }
-        
-        .cid-u5TVqzM6d6 .item-wrapper img {
-            width: 80px;
-            height: 80px;
-            object-fit: cover;
-            border-radius: 50% !important;
-        }
-        
-        .cid-u5TVqzM6d6 .item-wrapper {
-            margin-bottom: 2rem;
-        }
-        
-        .cid-u5TVqzM6d6 .card-title,
-        .cid-u5TVqzM6d6 .iconfont-wrapper {
-            color: #000000;
-        }
-        
-        .cid-u5TVqzM6d6 .card-text {
-            color: #000000;
-            text-align: center;
-        }
-        
-        .cid-u5TVqzM6d6 .content-head {
-            max-width: 800px;
-        }
-        
-        .cid-u5TVqzM6d6 .mbr-section-title {
-            color: #000000;
-        }
-        
-        .cid-u5TVqzM6d6 .card-title,
-        .cid-u5TVqzM6d6 .img-wrapper {
-            text-align: center;
-        }
-        
-        .cid-u5TVqzM6d6 .img-wrapper {
-            display: flex;
-            justify-content: center;
-        }
-    </style>
-    <section class="people05 cid-u5TVqzM6d6" id="testimonials-5-u5TVqzM6d6">
-        <div class="container">
-            <div class="row mb-5 justify-content-center">
-                <div class="col-12 mb-0 content-head">
-                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                        <strong>Buzz</strong>
-                    </h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="item features-without-image col-12 col-md-6 col-lg-4 active">
-                    <div class="item-wrapper">
-                        <div class="card-box align-left">
-                            <p class="card-text mbr-fonts-style display-7">
-                                &quot;Their work lit up my world!&quot;
-                            </p>
-                            <div class="img-wrapper mt-4 mb-3">
-                                <img src="assets/images/photo-1615572359976-1fe39507ed7b.jpeg" data-slide-to="0" data-bs-slide-to="0">
-                            </div>
-                            <h5 class="card-title mbr-fonts-style display-7">
-                                <strong>Max Power</strong>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="item features-without-image col-12 col-md-6 col-lg-4">
-                    <div class="item-wrapper">
-                        <div class="card-box align-left">
-                            <p class="card-text mbr-fonts-style display-7">
-                                &quot;Electrifying results every time!&quot;
-                            </p>
-                            <div class="img-wrapper mt-4 mb-3">
-                                <img src="assets/images/photo-1564972379941-fde999e14945.jpeg" data-slide-to="1" data-bs-slide-to="1">
-                            </div>
-                            <h5 class="card-title mbr-fonts-style display-7">
-                                <strong>Luna Watts</strong>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="item features-without-image col-12 col-md-6 col-lg-4">
-                    <div class="item-wrapper">
-                        <div class="card-box align-left">
-                            <p class="card-text mbr-fonts-style display-7">
-                                &quot;They truly shocked me with their expertise!&quot;
-                            </p>
-                            <div class="img-wrapper mt-4 mb-3">
-                                <img src="assets/images/photo-1535026406642-530e01750ad7.jpeg" data-slide-to="2" data-bs-slide-to="2">
-                            </div>
-                            <h5 class="card-title mbr-fonts-style display-7">
-                                <strong>Bolt Anderson</strong>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="item features-without-image col-12 col-md-6 col-lg-4">
-                    <div class="item-wrapper">
-                        <div class="card-box align-left">
-                            <p class="card-text mbr-fonts-style display-7">
-                                &quot;Their solutions are electrifyingly brilliant!&quot;
-                            </p>
-                            <div class="img-wrapper mt-4 mb-3">
-                                <img src="assets/images/photo-1529139574466-a303027c1d8b.jpeg" data-slide-to="4" data-bs-slide-to="5">
-                            </div>
-                            <h5 class="card-title mbr-fonts-style display-7">
-                                <strong>Electra Sparks</strong>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="item features-without-image col-12 col-md-6 col-lg-4">
-                    <div class="item-wrapper">
-                        <div class="card-box align-left">
-                            <p class="card-text mbr-fonts-style display-7">
-                                &quot;I&#x27;m charged up with their service!&quot;
-                            </p>
-                            <div class="img-wrapper mt-4 mb-3">
-                                <img src="assets/images/photo-1564564244660-5d73c057f2d2.jpeg" data-slide-to="6" data-bs-slide-to="6">
-                            </div>
-                            <h5 class="card-title mbr-fonts-style display-7">
-                                <strong>Wattson Charge</strong>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="item features-without-image col-12 col-md-6 col-lg-4">
-                    <div class="item-wrapper">
-                        <div class="card-box align-left">
-                            <p class="card-text mbr-fonts-style display-7">
-                                &quot;They&#x27;re the voltage to success!&quot;
-                            </p>
-                            <div class="img-wrapper mt-4 mb-3">
-                                <img src="assets/images/photo-1644945570917-1585f682efaa.jpeg" data-slide-to="7" data-bs-slide-to="7">
-                            </div>
-                            <h5 class="card-title mbr-fonts-style display-7">
-                                <strong>Ampere Jones</strong>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <style>
-        .cid-u5TVqzMTlt {
-            padding-top: 5rem;
-            padding-bottom: 3rem;
-            background-color: #ffffff;
-        }
-        
-        .cid-u5TVqzMTlt .item-subtitle {
-            line-height: 1.2;
-            color: #000000;
-            text-align: center;
-        }
-        
-        .cid-u5TVqzMTlt img,
-        .cid-u5TVqzMTlt .item-img {
-            width: 100%;
-            height: 100%;
-            height: 400px;
-            object-fit: cover;
-        }
-        
-        .cid-u5TVqzMTlt .item:focus,
-        .cid-u5TVqzMTlt span:focus {
-            outline: none;
-        }
-        
-        .cid-u5TVqzMTlt .item {
-            margin-bottom: 2rem;
-        }
-        
-        @media (max-width: 767px) {
-            .cid-u5TVqzMTlt .item {
-                margin-bottom: 1rem;
-            }
-        }
-        
-        .cid-u5TVqzMTlt .item-wrapper {
-            position: relative;
-            border-radius: 4px;
-            display: flex;
-            flex-flow: column nowrap;
-        }
-        
-        .cid-u5TVqzMTlt .mbr-section-btn {
-            margin-top: auto !important;
-        }
-        
-        .cid-u5TVqzMTlt .mbr-section-title {
-            color: #000000;
-        }
-        
-        .cid-u5TVqzMTlt .mbr-text,
-        .cid-u5TVqzMTlt .mbr-section-btn {
-            color: #000000;
-            text-align: center;
-        }
-        
-        .cid-u5TVqzMTlt .item-title {
-            color: #000000;
-        }
-        
-        .cid-u5TVqzMTlt .content-head {
-            max-width: 800px;
-        }
-    </style>
-    <section class="people03 cid-u5TVqzMTlt" id="people-1-u5TVqzMTlt">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-12 content-head">
-                    <div class="mbr-section-head mb-5">
-                        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                            <strong>Power Team</strong>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="item features-image col-12 col-md-6 col-lg-3">
-                    <div class="item-wrapper">
-                        <div class="item-img mb-3">
-                            <img src="assets/images/photo-1489980721706-f487dab89c24.jpeg">
-                        </div>
-                        <div class="item-content align-left">
-                            <h6 class="item-subtitle mbr-fonts-style display-5">
-                                <strong>Sparky Voltz</strong></h6>
-                            <p class="mbr-text mbr-fonts-style display-7">Chief Energy Officer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item features-image col-12 col-md-6 col-lg-3">
-                    <div class="item-wrapper">
-                        <div class="item-img mb-3">
-                            <img src="assets/images/photo-1594296306217-9a2e249baaf1.jpeg">
-                        </div>
-                        <div class="item-content align-left">
-                            <h6 class="item-subtitle mbr-fonts-style display-5">
-                                <strong>Tesla Watts</strong></h6>
-                            <p class="mbr-text mbr-fonts-style display-7">Circuit Magician</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item features-image col-12 col-md-6 col-lg-3">
-                    <div class="item-wrapper">
-                        <div class="item-img mb-3">
-                            <img src="assets/images/photo-1456327102063-fb5054efe647.jpeg">
-                        </div>
-                        <div class="item-content align-left">
-                            <h6 class="item-subtitle mbr-fonts-style display-5">
-                                <strong>Edison Amps</strong></h6>
-                            <p class="mbr-text mbr-fonts-style display-7">Power Innovator</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item features-image col-12 col-md-6 col-lg-3">
-                    <div class="item-wrapper">
-                        <div class="item-img mb-3">
-                            <img src="assets/images/photo-1569078449082-d264d9e239c5.jpeg">
-                        </div>
-                        <div class="item-content align-left">
-                            <h6 class="item-subtitle mbr-fonts-style display-5">
-                                <strong>Ohm Bright</strong>
-                            </h6>
-                            <p class="mbr-text mbr-fonts-style display-7">Electric Visionary</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <style>
         .cid-u5TVqzN4bz {
             overflow: hidden;
-            background-image: url("assets/images/photo-1440595228939-3673bdb622b4.jpeg");
+            background-image: url("assets/images/photo-1440595228939-3673bdb622b4.jpeg ");
         }
     </style>
-    <section class="image02 cid-u5TVqzN4bz mbr-fullscreen mbr-parallax-background" id="image-13-u5TVqzN4bz">
-        <div class="container">
-            <div class="row"></div>
+    <section class="image02 cid-u5TVqzN4bz mbr-fullscreen mbr-parallax-background " id="image-13-u5TVqzN4bz ">
+        <div class="container ">
+            <div class="row "></div>
         </div>
     </section>
     <style>
@@ -1619,169 +1318,81 @@
             max-width: 800px;
         }
     </style>
-    <section class="blog-2 cid-u5TVqzNsiS" id="blog-2-u5TVqzNsiS">
-        <div class="container-fluid">
-            <div class="row justify-content-center mb-5">
-                <div class="col-12 content-head">
-                    <div class="mbr-section-head">
-                        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                            <strong>Current Buzz</strong>
+    <section class="blog-2 cid-u5TVqzNsiS " id="blog-2-u5TVqzNsiS ">
+        <div class="container-fluid ">
+            <div class="row justify-content-center mb-5 ">
+                <div class="col-12 content-head ">
+                    <div class="mbr-section-head ">
+                        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2 ">
+                            <strong>OUR SERVICES<strong>
                         </h4>
+                        <h6 class="card-title mbr-fonts-style align-center mb-3 display-5 ">
+                            <strong>In You Local rea</strong>
+                            </h6>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="item features-image col-12 col-md-6 col-lg-3 active">
-                    <div class="item-wrapper">
-                        <div class="item-img mb-3">
-                            <img src="assets/images/photo-1574173799345-e672ea143892.jpeg">
+            <div class="row ">
+                <div class="item features-image col-12 col-md-6 col-lg-4 active ">
+                    <div class="item-wrapper ">
+                        <div class="item-img mb-3 ">
+                            <img src="assets/images/photo-1574173799345-e672ea143892.jpeg ">
                         </div>
-                        <div class="item-content align-left">
-                            <h5 class="item-title mbr-fonts-style mt-0 mb-3 display-7">
+                        <div class="item-content align-left ">
+                            <h5 class="item-title mbr-fonts-style mt-0 mb-3 display-7 ">
                                 Innovate
                             </h5>
-                            <h6 class="item-subtitle mbr-fonts-style mb-3 display-5">
-                                <strong>Sparks of Tomorrow</strong>
+                            <h6 class="item-subtitle mbr-fonts-style mb-3 display-5 ">
+                                <strong>Industrial</strong>
                             </h6>
 
-                            <div class="mbr-section-btn item-footer">
-                                <a href="" class="btn item-btn btn-primary display-7">
+                            <div class="mbr-section-btn item-footer ">
+                                <a href=" " class="btn item-btn btn-primary display-7 ">
                                 Explore
                             </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="item features-image col-12 col-md-6 col-lg-3">
-                    <div class="item-wrapper">
-                        <div class="item-img mb-3">
-                            <img src="assets/images/photo-1621905251189-08b45d6a269e.jpeg" data-slide-to="1" data-bs-slide-to="1">
+                <div class="item features-image col-12 col-md-6 col-lg-4 ">
+                    <div class="item-wrapper ">
+                        <div class="item-img mb-3 ">
+                            <img src="assets/images/photo-1621905251189-08b45d6a269e.jpeg " data-slide-to="1 " data-bs-slide-to="1 ">
                         </div>
-                        <div class="item-content align-left">
-                            <h5 class="item-title mbr-fonts-style mb-3 mt-0 display-7">
+                        <div class="item-content align-left ">
+                            <h5 class="item-title mbr-fonts-style mb-3 mt-0 display-7 ">
                                 Revolution
                             </h5>
-                            <h6 class="item-subtitle mbr-fonts-style mb-3 display-5">
-                                <strong>Wired for Success</strong>
+                            <h6 class="item-subtitle mbr-fonts-style mb-3 display-5 ">
+                                <strong>Residential</strong>
                             </h6>
-                            <div class="mbr-section-btn item-footer">
-                                <a href="" class="btn item-btn btn-primary display-7">
+                            <div class="mbr-section-btn item-footer ">
+                                <a href=" " class="btn item-btn btn-primary display-7 ">
                                 Explore
                             </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="item features-image col-12 col-md-6 col-lg-3">
-                    <div class="item-wrapper">
-                        <div class="item-img mb-3">
-                            <img src="assets/images/photo-1454779132693-e5cd0a216ed3.jpeg" data-slide-to="2" data-bs-slide-to="2">
+                <div class="item features-image col-12 col-md-6 col-lg-4 ">
+                    <div class="item-wrapper ">
+                        <div class="item-img mb-3 ">
+                            <img src="assets/images/photo-1454779132693-e5cd0a216ed3.jpeg " data-slide-to="2 " data-bs-slide-to="2 ">
                         </div>
-                        <div class="item-content align-left">
-                            <h5 class="item-title mbr-fonts-style mb-3 mt-0 display-7">
+                        <div class="item-content align-left ">
+                            <h5 class="item-title mbr-fonts-style mb-3 mt-0 display-7 ">
                                 Energize
                             </h5>
-                            <h6 class="item-subtitle mbr-fonts-style mt-0 mb-3 display-5">
-                                <strong>Power Surge Ahead</strong>
+                            <h6 class="item-subtitle mbr-fonts-style mt-0 mb-3 display-5 ">
+                                <strong>Commercial</strong>
                             </h6>
-                            <div class="mbr-section-btn item-footer">
-                                <a href="" class="btn item-btn btn-primary display-7">
+                            <div class="mbr-section-btn item-footer ">
+                                <a href=" " class="btn item-btn btn-primary display-7 ">
                                 Explore
                             </a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="item features-image col-12 col-md-6 col-lg-3">
-                    <div class="item-wrapper">
-                        <div class="item-img mb-3">
-                            <img src="assets/images/photo-1626345396353-2e1b6ab6b4f4.jpeg" data-slide-to="3" data-bs-slide-to="4">
-                        </div>
-                        <div class="item-content align-left">
-                            <h5 class="item-title mbr-fonts-style mb-3 mt-0 display-7">
-                                Illuminate
-                            </h5>
-                            <h6 class="item-subtitle mbr-fonts-style mt-0 mb-3 display-5">
-                                <strong>
-                                Bright Ideas Galore
-                            </strong>
-                            </h6>
-
-                            <div class="mbr-section-btn item-footer">
-                                <a href="" class="btn item-btn btn-primary display-7">
-                                Explore
-                            </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <style>
-        .cid-u5TVqzNF6b {
-            padding-top: 6em;
-            padding-bottom: 6em;
-            background-color: var(--dominant-color, #393193);
-        }
-        
-        @media (min-width: 768px) {
-            .cid-u5TVqzNF6b {
-                align-items: center;
-            }
-            .cid-u5TVqzNF6b .row {
-                justify-content: center;
-            }
-        }
-        
-        @media (max-width: 991px) and (min-width: 768px) {
-            .cid-u5TVqzNF6b .content-wrap {
-                min-width: 50%;
-            }
-        }
-        
-        @media (max-width: 767px) {
-            .cid-u5TVqzNF6b {
-                -webkit-align-items: center;
-                align-items: center;
-            }
-            .cid-u5TVqzNF6b .mbr-row {
-                -webkit-justify-content: center;
-                justify-content: center;
-            }
-            .cid-u5TVqzNF6b .content-wrap {
-                width: 100%;
-            }
-        }
-        
-        .cid-u5TVqzNF6b .mbr-section-title {
-            text-align: center;
-            color: var(--dominant-text, #ffffff);
-        }
-        
-        .cid-u5TVqzNF6b .mbr-text,
-        .cid-u5TVqzNF6b .mbr-section-btn {
-            text-align: center;
-            color: var(--dominant-text, #ffffff);
-        }
-    </style>
-    <section class="header19 cid-u5TVqzNF6b" id="call-to-action-7-u5TVqzNF6b">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-8">
-                    <h1 class="mbr-section-title mbr-fonts-style mb-4 display-1">
-                        <strong>Spark Your Electrical Dreams</strong>
-                    </h1>
-                    <p class="mbr-fonts-style mbr-text mb-4 display-7">
-                        Unleash the Power of Electricity with Our Expert Engineers
-                    </p>
-                    <div class="mbr-section-btn">
-                        <a class="btn btn-primary display-7" href="#">
-                        Get Electrified
-                    </a>
-                        <a class="btn btn-secondary display-7" href="#">
-                        Request a Shocking Quote
-                    </a></div>
                 </div>
             </div>
         </div>
@@ -1790,7 +1401,7 @@
         .cid-u5TVqzNGOH {
             padding-top: 5rem;
             padding-bottom: 5rem;
-            background-color: transparent;
+            background-color: #54a1d9;
         }
         
         .cid-u5TVqzNGOH .mbr-iconfont {
@@ -1892,691 +1503,102 @@
             color: #000000;
         }
     </style>
-    <section class="list1 cid-u5TVqzNGOH" id="faq-1-u5TVqzNGOH">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-12 col-lg-10 m-auto">
-                    <div class="content">
-                        <div class="mbr-section-head align-left mb-5">
-                            <h3 class="mbr-section-title mb-2 mbr-fonts-style display-2">
+    <section class="list1 cid-u5TVqzNGOH " id="faq-1-u5TVqzNGOH ">
+        <div class="container ">
+            <div class="row justify-content-center ">
+                <div class="col-12 col-md-12 col-lg-10 m-auto ">
+                    <div class="content ">
+                        <div class="mbr-section-head align-left mb-5 ">
+                            <h3 class="mbr-section-title mb-2 mbr-fonts-style display-2 ">
                                 <strong>Electrifying Answers Await</strong>
                             </h3>
                         </div>
-                        <div id="bootstrap-accordion_0" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
-                            <div class="card mb-3">
-                                <div class="card-header" role="tab" id="headingOne">
-                                    <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_0" aria-expanded="false" aria-controls="collapse1">
-                                        <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
+                        <div id="bootstrap-accordion_0 " class="panel-group accordionStyles accordion " role="tablist " aria-multiselectable="true ">
+                            <div class="card mb-3 ">
+                                <div class="card-header " role="tab " id="headingOne ">
+                                    <a role="button " class="panel-title collapsed " data-toggle="collapse " data-bs-toggle="collapse " data-core=" " href="#collapse1_0 " aria-expanded="false " aria-controls="collapse1 ">
+                                        <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5 ">
                                             What Sparks Our Engineers&#x27; Passion?
                                         </h6>
-                                        <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                        <span class="sign mbr-iconfont mobi-mbri-arrow-down "></span>
                                     </a>
                                 </div>
-                                <div id="collapse1_0" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_0">
-                                    <div class="panel-body">
-                                        <p class="mbr-fonts-style panel-text display-7">
+                                <div id="collapse1_0 " class="panel-collapse noScroll collapse " role="tabpanel " aria-labelledby="headingOne " data-parent="#accordion " data-bs-parent="#bootstrap-accordion_0 ">
+                                    <div class="panel-body ">
+                                        <p class="mbr-fonts-style panel-text display-7 ">
                                             Our engineers are fueled by the electrifying challenges of harnessing power.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="card mb-3">
-                                <div class="card-header" role="tab" id="headingOne">
-                                    <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_0" aria-expanded="false" aria-controls="collapse2">
-                                        <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
+                            <div class="card mb-3 ">
+                                <div class="card-header " role="tab " id="headingOne ">
+                                    <a role="button " class="panel-title collapsed " data-toggle="collapse " data-bs-toggle="collapse " data-core=" " href="#collapse2_0 " aria-expanded="false " aria-controls="collapse2 ">
+                                        <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5 ">
                                             How Electrifying Are Our Services?
                                         </h6>
-                                        <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                        <span class="sign mbr-iconfont mobi-mbri-arrow-down "></span>
                                     </a>
                                 </div>
-                                <div id="collapse2_0" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_0">
-                                    <div class="panel-body">
-                                        <p class="mbr-fonts-style panel-text display-7">
+                                <div id="collapse2_0 " class="panel-collapse noScroll collapse " role="tabpanel " aria-labelledby="headingOne " data-parent="#accordion " data-bs-parent="#bootstrap-accordion_0 ">
+                                    <div class="panel-body ">
+                                        <p class="mbr-fonts-style panel-text display-7 ">
                                             Our services are so electrifying, they&#x27;ll leave you buzzing with excitement!
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="card mb-3">
-                                <div class="card-header" role="tab" id="headingOne">
-                                    <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_0" aria-expanded="false" aria-controls="collapse3">
-                                        <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
+                            <div class="card mb-3 ">
+                                <div class="card-header " role="tab " id="headingOne ">
+                                    <a role="button " class="panel-title collapsed " data-toggle="collapse " data-bs-toggle="collapse " data-core=" " href="#collapse3_0 " aria-expanded="false " aria-controls="collapse3 ">
+                                        <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5 ">
                                             Why Choose Us for Your Electrical Needs?
                                         </h6>
-                                        <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                        <span class="sign mbr-iconfont mobi-mbri-arrow-down "></span>
                                     </a>
                                 </div>
-                                <div id="collapse3_0" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_0">
-                                    <div class="panel-body">
-                                        <p class="mbr-fonts-style panel-text display-7">
+                                <div id="collapse3_0 " class="panel-collapse noScroll collapse " role="tabpanel " aria-labelledby="headingOne " data-parent="#accordion " data-bs-parent="#bootstrap-accordion_0 ">
+                                    <div class="panel-body ">
+                                        <p class="mbr-fonts-style panel-text display-7 ">
                                             We&#x27;re the shockingly good choice for all your electrical engineering requirements.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="card mb-3">
-                                <div class="card-header" role="tab" id="headingOne">
-                                    <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_0" aria-expanded="false" aria-controls="collapse4">
-                                        <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
+                            <div class="card mb-3 ">
+                                <div class="card-header " role="tab " id="headingOne ">
+                                    <a role="button " class="panel-title collapsed " data-toggle="collapse " data-bs-toggle="collapse " data-core=" " href="#collapse4_0 " aria-expanded="false " aria-controls="collapse4 ">
+                                        <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5 ">
                                             What Makes Our Engineers Stand Out?
                                         </h6>
-                                        <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                        <span class="sign mbr-iconfont mobi-mbri-arrow-down "></span>
                                     </a>
                                 </div>
-                                <div id="collapse4_0" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_0">
-                                    <div class="panel-body">
-                                        <p class="mbr-fonts-style panel-text display-7">
+                                <div id="collapse4_0 " class="panel-collapse noScroll collapse " role="tabpanel " aria-labelledby="headingOne " data-parent="#accordion " data-bs-parent="#bootstrap-accordion_0 ">
+                                    <div class="panel-body ">
+                                        <p class="mbr-fonts-style panel-text display-7 ">
                                             Our engineers are the brightest sparks in the industry, lighting up your projects.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="card mb-3">
-                                <div class="card-header" role="tab" id="headingOne">
-                                    <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_0" aria-expanded="false" aria-controls="collapse5">
-                                        <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
+                            <div class="card mb-3 ">
+                                <div class="card-header " role="tab " id="headingOne ">
+                                    <a role="button " class="panel-title collapsed " data-toggle="collapse " data-bs-toggle="collapse " data-core=" " href="#collapse5_0 " aria-expanded="false " aria-controls="collapse5 ">
+                                        <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5 ">
                                             How Do We Ensure Safety in Every Project?
                                         </h6>
-                                        <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                        <span class="sign mbr-iconfont mobi-mbri-arrow-down "></span>
                                     </a>
                                 </div>
-                                <div id="collapse5_0" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_0">
-                                    <div class="panel-body">
-                                        <p class="mbr-fonts-style panel-text display-7">
+                                <div id="collapse5_0 " class="panel-collapse noScroll collapse " role="tabpanel " aria-labelledby="headingOne " data-parent="#accordion " data-bs-parent="#bootstrap-accordion_0 ">
+                                    <div class="panel-body ">
+                                        <p class="mbr-fonts-style panel-text display-7 ">
                                             Safety is our top priority; we&#x27;ll keep your projects grounded and secure.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <style>
-        .cid-u5TVqzNOOK {
-            padding-top: 3rem;
-            padding-bottom: 3rem;
-            background-color: #ffffff;
-        }
-        
-        .cid-u5TVqzNOOK .mbr-fallback-image.disabled {
-            display: none;
-        }
-        
-        .cid-u5TVqzNOOK .item-wrapper {
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-        }
-        
-        .cid-u5TVqzNOOK .mbr-fallback-image {
-            display: block;
-            background-size: cover;
-            background-position: center center;
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-        }
-        
-        .cid-u5TVqzNOOK .mbr-iconfont {
-            display: inline-flex;
-            font-size: 2rem;
-            color: var(--primary-color, #d70081);
-            width: 80px;
-            justify-content: center;
-            align-items: center;
-            background: #ffd7ef;
-            height: 80px;
-            border-radius: 50%;
-        }
-        
-        .cid-u5TVqzNOOK .card-title,
-        .cid-u5TVqzNOOK .iconfont-wrapper {
-            color: var(--primary-color, #d70081);
-            text-align: center;
-        }
-        
-        .cid-u5TVqzNOOK .card-text {
-            color: #000000;
-            text-align: center;
-        }
-        
-        .cid-u5TVqzNOOK .content-head {
-            max-width: 800px;
-        }
-        
-        .cid-u5TVqzNOOK .mbr-section-title {
-            color: #000000;
-        }
-    </style>
-    <section class="features10 cid-u5TVqzNOOK" id="metrics-2-u5TVqzNOOK">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="item features-without-image col-12 col-md-6 col-lg-4">
-                    <div class="item-wrapper">
-                        <div class="card-box align-left">
-                            <h5 class="card-title mbr-fonts-style display-1">
-                                <strong>100K+</strong>
-                            </h5>
-                            <p class="card-text mbr-fonts-style mb-3 display-7">
-                                Projects Powered
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item features-without-image col-12 col-md-6 col-lg-4">
-                    <div class="item-wrapper">
-                        <div class="card-box align-left">
-                            <h5 class="card-title mbr-fonts-style display-1">
-                                <strong>99%</strong>
-                            </h5>
-                            <p class="card-text mbr-fonts-style mb-3 display-7">
-                                Customer Satisfaction
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item features-without-image col-12 col-md-6 col-lg-4">
-                    <div class="item-wrapper">
-                        <div class="card-box align-left">
-                            <h5 class="card-title mbr-fonts-style display-1">
-                                <strong>24/7</strong>
-                            </h5>
-                            <p class="card-text mbr-fonts-style mb-3 display-7">
-                                Electrical Support Available
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <style>
-        .cid-u5TVqzN85R {
-            padding-top: 5rem;
-            padding-bottom: 5rem;
-            background-color: transparent;
-        }
-        
-        .cid-u5TVqzN85R img,
-        .cid-u5TVqzN85R .item-img {
-            width: 100%;
-            height: 100%;
-            height: 400px;
-            object-fit: cover;
-        }
-        
-        @media (max-width: 767px) {
-            .cid-u5TVqzN85R img,
-            .cid-u5TVqzN85R .item-img {
-                max-height: 300px;
-            }
-        }
-        
-        .cid-u5TVqzN85R .item:focus,
-        .cid-u5TVqzN85R span:focus {
-            outline: none;
-        }
-        
-        .cid-u5TVqzN85R .item-wrapper {
-            position: relative;
-        }
-        
-        .cid-u5TVqzN85R .slide-content {
-            position: relative;
-            border-radius: 4px;
-            background: #ffffff;
-            height: 100%;
-            display: flex;
-            overflow: hidden;
-            flex-flow: column nowrap;
-        }
-        
-        @media (min-width: 768px) {
-            .cid-u5TVqzN85R .slide-content .item-content {
-                padding: 2.25rem 2.25rem 0;
-            }
-            .cid-u5TVqzN85R .slide-content .item-footer {
-                padding: 0 2.25rem 2.25rem;
-            }
-        }
-        
-        @media (max-width: 767px) {
-            .cid-u5TVqzN85R .slide-content .item-content {
-                padding: 1.5rem 1.5rem 0;
-            }
-            .cid-u5TVqzN85R .slide-content .item-footer {
-                padding: 0 1.5rem 1.5rem;
-            }
-        }
-        
-        .cid-u5TVqzN85R .mbr-section-btn {
-            margin-top: auto !important;
-        }
-        
-        .cid-u5TVqzN85R .mbr-section-title {
-            color: #000000;
-        }
-        
-        .cid-u5TVqzN85R .mbr-text,
-        .cid-u5TVqzN85R .mbr-section-btn {
-            text-align: left;
-        }
-        
-        .cid-u5TVqzN85R .item-title {
-            text-align: left;
-        }
-        
-        .cid-u5TVqzN85R .item-subtitle {
-            text-align: left;
-            color: #000000;
-        }
-        
-        .cid-u5TVqzN85R .embla__slide {
-            display: flex;
-            justify-content: center;
-            position: relative;
-            min-width: 370px;
-            max-width: 370px;
-        }
-        
-        @media (max-width: 768px) {
-            .cid-u5TVqzN85R .embla__slide {
-                min-width: 85%;
-                max-width: initial;
-            }
-        }
-        
-        .cid-u5TVqzN85R .embla__button--next,
-        .cid-u5TVqzN85R .embla__button--prev {
-            display: flex;
-        }
-        
-        .cid-u5TVqzN85R .embla__button {
-            top: 50%;
-            width: 60px;
-            height: 60px;
-            margin-top: -1.5rem;
-            font-size: 22px;
-            background-color: rgba(0, 0, 0, 0.5);
-            color: #fff;
-            border: 2px solid #fff;
-            border-radius: 50%;
-            transition: all 0.3s;
-            position: absolute;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        @media (max-width: 768px) {
-            .cid-u5TVqzN85R .embla__button {
-                display: none;
-            }
-        }
-        
-        .cid-u5TVqzN85R .embla__button:disabled {
-            cursor: default;
-            display: none;
-        }
-        
-        .cid-u5TVqzN85R .embla__button:hover {
-            background: #000;
-            color: rgba(255, 255, 255, 0.5);
-        }
-        
-        .cid-u5TVqzN85R .embla__button.embla__button--prev {
-            left: 0;
-            margin-left: 2.5rem;
-        }
-        
-        .cid-u5TVqzN85R .embla__button.embla__button--next {
-            right: 0;
-            margin-right: 2.5rem;
-        }
-        
-        @media (max-width: 767px) {
-            .cid-u5TVqzN85R .embla__button {
-                top: auto;
-            }
-        }
-        
-        .cid-u5TVqzN85R .embla {
-            position: relative;
-            width: 100%;
-        }
-        
-        .cid-u5TVqzN85R .embla__viewport {
-            overflow: hidden;
-            width: 100%;
-        }
-        
-        .cid-u5TVqzN85R .embla__viewport.is-draggable {
-            cursor: grab;
-        }
-        
-        .cid-u5TVqzN85R .embla__viewport.is-dragging {
-            cursor: grabbing;
-        }
-        
-        .cid-u5TVqzN85R .embla__container {
-            display: flex;
-            user-select: none;
-            -webkit-touch-callout: none;
-            -khtml-user-select: none;
-            -webkit-tap-highlight-color: transparent;
-        }
-        
-        @media (max-width: 768px) {
-            .cid-u5TVqzN85R .embla__container .embla__slide:first-child {
-                margin-left: 2rem !important;
-            }
-            .cid-u5TVqzN85R .embla__container .embla__slide:last-child {
-                margin-right: 2rem !important;
-            }
-        }
-        
-        .cid-u5TVqzN85R .content-head {
-            max-width: 800px;
-        }
-    </style>
-    <section class="features_17 mbr-embla cid-u5TVqzN85R" id="features-17-u5TVqzN85R">
-        <div class="position-relative">
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="col-12 content-head">
-                        <div class="mbr-section-head mb-5">
-                            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                                <strong>Electrifying Resources Await You</strong>
-                            </h4>
-                            <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4 display-7">Download Our Shocking Electrical Engineering Tools</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="embla" data-skip-snaps="true" data-align="center" data-contain-scroll="trimSnaps" data-auto-play-interval="5" data-draggable="true">
-                <div class="embla__viewport container-fluid">
-                    <div class="embla__container">
-                        <div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                            <div class="slide-content">
-                                <div class="item-img">
-                                    <div class="item-wrapper">
-                                        <img src="assets/images/photo-1413882353314-73389f63b6fd.jpeg" data-slide-to="1" data-bs-slide-to="1">
-                                    </div>
-                                </div>
-                                <div class="item-content">
-                                    <h5 class="item-title mbr-fonts-style display-5">
-                                        <strong>Whitepapers</strong>
-                                    </h5>
-                                    <p class="mbr-text mbr-fonts-style mt-3 display-7">Dive into the electrifying world of electrical engineering.</p>
-                                </div>
-                                <div class="mbr-section-btn item-footer mt-2"><a href="" class="btn item-btn btn-primary display-7" target="_blank">Get Electrified</a></div>
-                            </div>
-                        </div>
-                        <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
-                            <div class="slide-content">
-                                <div class="item-img">
-                                    <div class="item-wrapper">
-                                        <img src="assets/images/photo-1555963966-b7ae5404b6ed.jpeg" data-slide-to="2" data-bs-slide-to="2">
-                                    </div>
-                                </div>
-                                <div class="item-content">
-                                    <h5 class="item-title mbr-fonts-style display-5">
-                                        <strong>Guides</strong>
-                                    </h5>
-                                    <p class="mbr-text mbr-fonts-style mt-3 display-7">Unlock the secrets of electrical engineering with our guides.</p>
-                                </div>
-                                <div class="mbr-section-btn item-footer mt-2">
-                                    <a href="" class="btn item-btn btn-primary display-7" target="_blank">Get Electrified</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
-                            <div class="slide-content">
-                                <div class="item-img">
-                                    <div class="item-wrapper">
-                                        <img src="assets/images/photo-1609002052297-3b7538b3dad4.jpeg" data-slide-to="3" data-bs-slide-to="3">
-                                    </div>
-                                </div>
-                                <div class="item-content">
-                                    <h5 class="item-title mbr-fonts-style display-5">
-                                        <strong>Tools</strong>
-                                    </h5>
-                                    <p class="mbr-text mbr-fonts-style mt-3 display-7">Empower your projects with our cutting-edge electrical tools.</p>
-                                </div>
-                                <div class="mbr-section-btn item-footer mt-2">
-                                    <a href="" class="btn item-btn btn-primary display-7" target="_blank">Get Electrified</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
-                            <div class="slide-content">
-                                <div class="item-img">
-                                    <div class="item-wrapper">
-                                        <img src="assets/images/photo-1597502310092-31cdaa35b46d.jpeg" data-slide-to="4" data-bs-slide-to="4">
-                                    </div>
-                                </div>
-                                <div class="item-content">
-                                    <h5 class="item-title mbr-fonts-style display-5">
-                                        <strong>Insights</strong>
-                                    </h5>
-                                    <p class="mbr-text mbr-fonts-style mt-3 display-7">Gain valuable insights into the world of electrical engineering.</p>
-                                </div>
-                                <div class="mbr-section-btn item-footer mt-2">
-                                    <a href="" class="btn item-btn btn-primary display-7" target="_blank">Get Electrified</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
-                            <div class="slide-content">
-                                <div class="item-img">
-                                    <div class="item-wrapper">
-                                        <img src="assets/images/photo-1586258594799-f075072e7fc6.jpeg" data-slide-to="5" data-bs-slide-to="5">
-                                    </div>
-                                </div>
-                                <div class="item-content">
-                                    <h5 class="item-title mbr-fonts-style display-5">
-                                        <strong>Tutorials</strong>
-                                    </h5>
-                                    <p class="mbr-text mbr-fonts-style mt-3 display-7">Master the art of electrical engineering with our step-by-step tutorials.</p>
-                                </div>
-                                <div class="mbr-section-btn item-footer mt-2">
-                                    <a href="" class="btn item-btn btn-primary display-7" target="_blank">Get Electrified</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="embla__button embla__button--prev">
-				<span class="mobi-mbri mobi-mbri-arrow-prev mbr-iconfont" aria-hidden="true"></span>
-				<span class="sr-only visually-hidden visually-hidden visually-hidden">Previous</span>
-			</button>
-                <button class="embla__button embla__button--next">
-				<span class="mobi-mbri mobi-mbri-arrow-next mbr-iconfont" aria-hidden="true"></span>
-				<span class="sr-only visually-hidden visually-hidden visually-hidden">Next</span>
-			</button>
-            </div>
-        </div>
-    </section>
-    <style>
-        .cid-u5TVqzNJUH {
-            padding-top: 6rem;
-            padding-bottom: 6rem;
-            background-color: #ffffff;
-        }
-        
-        .cid-u5TVqzNJUH .item:focus,
-        .cid-u5TVqzNJUH span:focus {
-            outline: none;
-        }
-        
-        .cid-u5TVqzNJUH .container-fluid {
-            padding-left: 0;
-            padding-right: 0;
-            overflow: hidden;
-        }
-        
-        .cid-u5TVqzNJUH .content-head {
-            max-width: 800px;
-        }
-        
-        .cid-u5TVqzNJUH .item {
-            color: #232323;
-            min-height: 90px;
-            font-weight: bold;
-        }
-        
-        @media (max-width: 768px) {
-            .cid-u5TVqzNJUH .item {
-                min-height: 45px;
-            }
-        }
-    </style>
-    <section class="gallery10 cid-u5TVqzNJUH" id="features-69-u5TVqzNJUH">
-        <div class="container-fluid">
-            <div class="loop-container">
-                <div class="item display-1" data-linewords="
-          Unleash Your Electrical Potential with Our Expert Engineers *
-          Experience the Shocking Difference in Electrical Engineering *" data-direction="-1" data-speed="0.05">
-                </div>
-                <div class="item display-1" data-linewords="
-          Unleash Your Electrical Potential with Our Expert Engineers *
-          Experience the Shocking Difference in Electrical Engineering *" data-direction="-1" data-speed="0.05">
-                </div>
-            </div>
-        </div>
-    </section>
-    <style>
-        .cid-u5TVqzN04W {
-            padding-top: 6rem;
-            padding-bottom: 6rem;
-            background-color: #ffffff;
-        }
-        
-        .cid-u5TVqzN04W .item-subtitle {
-            line-height: 1.2;
-            color: #000000;
-        }
-        
-        .cid-u5TVqzN04W img,
-        .cid-u5TVqzN04W .item-img {
-            width: 100%;
-            height: 100%;
-            height: 400px;
-            object-fit: cover;
-        }
-        
-        .cid-u5TVqzN04W .item:focus,
-        .cid-u5TVqzN04W span:focus {
-            outline: none;
-        }
-        
-        .cid-u5TVqzN04W .item {
-            margin-bottom: 2rem;
-        }
-        
-        @media (max-width: 767px) {
-            .cid-u5TVqzN04W .item {
-                margin-bottom: 1rem;
-            }
-        }
-        
-        .cid-u5TVqzN04W .item-wrapper {
-            position: relative;
-            border-radius: 4px;
-            height: 100%;
-            display: flex;
-            flex-flow: column nowrap;
-        }
-        
-        .cid-u5TVqzN04W .mbr-section-title {
-            color: #232323;
-        }
-        
-        .cid-u5TVqzN04W .mbr-text,
-        .cid-u5TVqzN04W .mbr-section-btn {
-            color: #232323;
-        }
-        
-        .cid-u5TVqzN04W .item-title {
-            color: #232323;
-        }
-        
-        .cid-u5TVqzN04W .content-head {
-            max-width: 800px;
-        }
-    </style>
-    <section class="features03 cid-u5TVqzN04W" id="events-1-u5TVqzN04W">
-        <div class="container-fluid">
-            <div class="row justify-content-center mb-5">
-                <div class="col-12 content-head">
-                    <div class="mbr-section-head">
-                        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                            <strong>Power Up</strong>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="item features-image col-12 col-md-6 col-lg-3 active">
-                    <div class="item-wrapper">
-                        <div class="item-img mb-3">
-                            <img src="assets/images/photo-1472145246862-b24cf25c4a36.jpeg">
-                        </div>
-                        <div class="item-content align-left">
-                            <h6 class="item-subtitle mbr-fonts-style mb-3 display-5">
-                                <strong><a class="text-black fw-bold" href="#">Electrify Your Knowledge</a></strong>
-                            </h6>
-                            <p class="mbr-text mbr-fonts-style mb-3 display-7">March 15, 2024</p>
-                            <p class="mbr-text mbr-fonts-style mb-3 display-7">Join our electrifying webinar to supercharge your electrical engineering skills. Sparks will fly, knowledge will flow!</p>
-                            <div class="mbr-section-btn item-footer"><a href="#" class="btn item-btn btn-primary display-7">Register</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item features-image col-12 col-md-6 col-lg-3">
-                    <div class="item-wrapper">
-                        <div class="item-img mb-3">
-                            <img src="assets/images/photo-1509391111737-9b07f052f6b6.jpeg" data-slide-to="1" data-bs-slide-to="1">
-                        </div>
-                        <div class="item-content align-left">
-                            <h6 class="item-subtitle mbr-fonts-style mb-3 display-5">
-                                <strong><a class="text-black fw-bold" href="#">Voltage Ventures Workshop</a></strong>
-                            </h6>
-                            <p class="mbr-text mbr-fonts-style mb-3 display-7">April 5, 2024</p>
-                            <p class="mbr-text mbr-fonts-style mb-3 display-7">Don&#x27;t miss out on our high-voltage workshop where you&#x27;ll learn to shock the competition with your expertise!</p>
-                            <div class="mbr-section-btn item-footer"><a href="#" class="btn item-btn btn-primary display-7">Register</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item features-image col-12 col-md-6 col-lg-3">
-                    <div class="item-wrapper">
-                        <div class="item-img mb-3">
-                            <img src="assets/images/photo-1518181835702-6eef8b4b2113.jpeg" data-slide-to="2" data-bs-slide-to="2">
-                        </div>
-                        <div class="item-content align-left">
-                            <h6 class="item-subtitle mbr-fonts-style mt-0 mb-3 display-5">
-                                <strong><a class="text-black fw-bold" href="#">Current Connections Seminar</a></strong>
-                            </h6>
-                            <p class="mbr-text mbr-fonts-style mb-3 display-7">April 20, 2024</p>
-                            <p class="mbr-text mbr-fonts-style mb-3 display-7">Connect with industry leaders and power up your network at our electrifying seminar. Get charged up for success!</p>
-                            <div class="mbr-section-btn item-footer"><a href="#" class="btn item-btn btn-primary display-7">Register</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item features-image col-12 col-md-6 col-lg-3">
-                    <div class="item-wrapper">
-                        <div class="item-img mb-3">
-                            <img src="assets/images/photo-1487875961445-47a00398c267.jpeg" data-slide-to="3" data-bs-slide-to="3">
-                        </div>
-                        <div class="item-content align-left">
-                            <h6 class="item-subtitle mbr-fonts-style mt-0 mb-3 display-5">
-                                <strong><a class="text-black fw-bold" href="#">Watt&#x27;s Next Conference</a></strong>
-                            </h6>
-                            <p class="mbr-text mbr-fonts-style mb-3 display-7">May 10, 2024</p>
-                            <p class="mbr-text mbr-fonts-style mb-3 display-7">Discover what&#x27;s next in the world of electrical engineering at our high-energy conference. Don&#x27;t miss the power surge!</p>
-                            <div class="mbr-section-btn item-footer"><a href="#" class="btn item-btn btn-primary display-7">Register</a></div>
                         </div>
                     </div>
                 </div>
@@ -2633,37 +1655,32 @@
             color: #000000;
         }
     </style>
-    <section class="social05 cid-u5TVqzNCof" id="follow-us-2-u5TVqzNCof">
-        <div class="container">
-            <div class="row">
-                <h3 class="mbr-section-title align-center mb-5 mbr-fonts-style display-2">
-                    <strong>Spark with Us</strong>
+    <section class="social05 cid-u5TVqzNCof " id="follow-us-2-u5TVqzNCof ">
+        <div class="container ">
+            <div class="row ">
+                <h3 class="mbr-section-title align-center mb-5 mbr-fonts-style display-2 ">
+                    <strong>Connect with Us</strong>
                 </h3>
-                <div class="col-12">
-                    <div class="social-row">
-                        <div class="soc-item">
-                            <a href="#" target="_blank">
-                                <span class="mbr-iconfont socicon socicon-facebook"></span>
+                <div class="col-12 ">
+                    <div class="social-row ">
+                        <div class="soc-item ">
+                            <a href="# " target="_blank ">
+                                <span class="mbr-iconfont socicon socicon-facebook "></span>
                             </a>
                         </div>
-                        <div class="soc-item">
-                            <a href="#" target="_blank">
-                                <span class="mbr-iconfont socicon-twitter socicon"></span>
+                        <div class="soc-item ">
+                            <a href="# " target="_blank ">
+                                <span class="mbr-iconfont socicon-twitter socicon "></span>
                             </a>
                         </div>
-                        <div class="soc-item">
-                            <a href="#" target="_blank">
-                                <span class="mbr-iconfont socicon-instagram socicon"></span>
+                        <div class="soc-item ">
+                            <a href="# " target="_blank ">
+                                <span class="mbr-iconfont socicon-instagram socicon "></span>
                             </a>
                         </div>
-                        <div class="soc-item">
-                            <a href="#" target="_blank">
-                                <span class="mbr-iconfont socicon socicon-linkedin"></span>
-                            </a>
-                        </div>
-                        <div class="soc-item">
-                            <a href="#" target="_blank">
-                                <span class="mbr-iconfont socicon socicon-twitch"></span>
+                        <div class="soc-item ">
+                            <a href="# " target="_blank ">
+                                <span class="mbr-iconfont socicon socicon-linkedin "></span>
                             </a>
                         </div>
                     </div>
@@ -2671,82 +1688,12 @@
             </div>
         </div>
     </section>
-    <style>
-        .cid-u5TVqzNHgL {
-            padding-top: 6rem;
-            padding-bottom: 6rem;
-            background-color: transparent;
-        }
-        
-        .cid-u5TVqzNHgL .mbr-overlay {
-            background-color: #ffffff;
-            opacity: 0.4;
-        }
-        
-        .cid-u5TVqzNHgL form .mbr-section-btn {
-            text-align: center;
-            width: 100%;
-        }
-        
-        .cid-u5TVqzNHgL form .mbr-section-btn .btn {
-            display: inline-flex;
-        }
-        
-        @media (max-width: 991px) {
-            .cid-u5TVqzNHgL form .mbr-section-btn .btn {
-                width: 100%;
-            }
-        }
-        
-        .cid-u5TVqzNHgL .content-head {
-            max-width: 800px;
-        }
-    </style>
-    <section class="form5 cid-u5TVqzNHgL" id="contact-form-3-u5TVqzNHgL">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 content-head">
-                    <div class="mbr-section-head mb-5">
-                        <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                            <strong>Zap Us Now</strong>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                    <form action="https://www.nutekgroup.org" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="">
-                        <div class="row">
-                            <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
-                            <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                                Oops...! some problem!
-                            </div>
-                        </div>
-                        <div class="dragArea row">
-                            <div class="col-md col-sm-12 form-group mb-3" data-for="name">
-                                <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-form02-0">
-                            </div>
-                            <div class="col-md col-sm-12 form-group mb-3" data-for="email">
-                                <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-form02-0">
-                            </div>
-                            <div class="col-12 form-group mb-3" data-for="url">
-                                <input type="url" name="url" placeholder="Phone" data-form-field="url" class="form-control" value="" id="url-form5-0">
-                            </div>
-                            <div class="col-12 form-group mb-3" data-for="textarea">
-                                <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-form02-0"></textarea>
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit" class="btn btn-primary display-7">Zap Away</button></div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <style>
         .cid-u5TVqzNixV {
             padding-top: 6rem;
             padding-bottom: 6rem;
-            background-color: transparent;
+            background-color: #54a1d9;
         }
         
         .cid-u5TVqzNixV .mbr-fallback-image.disabled {
@@ -2801,62 +1748,62 @@
             max-width: 800px;
         }
     </style>
-    <section class="contacts01 cid-u5TVqzNixV" id="contacts-1-u5TVqzNixV">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 content-head">
-                    <div class="mbr-section-head mb-5">
-                        <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                            <strong>Shock Zone</strong>
+    <section class="contacts01 cid-u5TVqzNixV " id="contacts-1-u5TVqzNixV ">
+        <div class="container ">
+            <div class="row justify-content-center ">
+                <div class="col-12 content-head ">
+                    <div class="mbr-section-head mb-5 ">
+                        <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2 ">
+                            <strong>Get in touch</strong>
                         </h3>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="item features-without-image col-12 col-md-6 active">
-                    <div class="item-wrapper">
-                        <div class="text-wrapper">
-                            <h6 class="card-title mbr-fonts-style mb-3 display-5">
+            <div class="row ">
+                <div class="item features-without-image col-12 col-md-6 active ">
+                    <div class="item-wrapper ">
+                        <div class="text-wrapper ">
+                            <h6 class="card-title mbr-fonts-style mb-3 display-5 ">
                                 <strong>Call</strong>
                             </h6>
-                            <p class="mbr-text mbr-fonts-style display-7">
-                                <a href="tel:123-456-7890" class="text-black">123-456-7890</a>
+                            <p class="mbr-text mbr-fonts-style display-7 ">
+                                <a href="tel:071-136-6043 " class="text-black ">071-136-6043</a>
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="item features-without-image col-12 col-md-6">
-                    <div class="item-wrapper">
-                        <div class="text-wrapper">
-                            <h6 class="card-title mbr-fonts-style mb-3 display-5">
+                <div class="item features-without-image col-12 col-md-6 ">
+                    <div class="item-wrapper ">
+                        <div class="text-wrapper ">
+                            <h6 class="card-title mbr-fonts-style mb-3 display-5 ">
                                 <strong>Email</strong>
                             </h6>
-                            <p class="mbr-text mbr-fonts-style display-7">
-                                <a href="mailto:info@shockzone.com" class="text-black">info@shockzone.com</a>
+                            <p class="mbr-text mbr-fonts-style display-7 ">
+                                <a href="mailto:info@nutekgroup.org " class="text-black ">info@nutekgroup.org</a>
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="item features-without-image col-12 col-md-6">
-                    <div class="item-wrapper">
-                        <div class="text-wrapper">
-                            <h6 class="card-title mbr-fonts-style mb-3 display-5">
+                <div class="item features-without-image col-12 col-md-6 ">
+                    <div class="item-wrapper ">
+                        <div class="text-wrapper ">
+                            <h6 class="card-title mbr-fonts-style mb-3 display-5 ">
                                 <strong>Location</strong>
                             </h6>
-                            <p class="mbr-text mbr-fonts-style display-7">
-                                Cape Town South Africa
+                            <p class="mbr-text mbr-fonts-style display-7 ">
+                                Mokopane, South Africa
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="item features-without-image col-12 col-md-6">
-                    <div class="item-wrapper">
-                        <div class="text-wrapper">
-                            <h6 class="card-title mbr-fonts-style mb-3 display-5">
+                <div class="item features-without-image col-12 col-md-6 ">
+                    <div class="item-wrapper ">
+                        <div class="text-wrapper ">
+                            <h6 class="card-title mbr-fonts-style mb-3 display-5 ">
                                 <strong>Power Hours</strong>
                             </h6>
-                            <p class="mbr-text mbr-fonts-style display-7">
-                                Mon-Fri: 9am-6pm
+                            <p class="mbr-text mbr-fonts-style display-7 ">
+                                Mon-Sat: 24hrs
                             </p>
                         </div>
                     </div>
@@ -2872,11 +1819,11 @@
             overflow: hidden;
         }
     </style>
-    <section class="footer4 cid-u5TVqzNHIm" once="footers" id="footer-4-u5TVqzNHIm">
-        <div class="container">
-            <div class="media-container-row align-center mbr-white">
-                <div class="col-12">
-                    <p class="mbr-text mb-0 mbr-fonts-style display-7">
+    <section class="footer4 cid-u5TVqzNHIm " once="footers " id="footer-4-u5TVqzNHIm ">
+        <div class="container ">
+            <div class="media-container-row align-center mbr-white ">
+                <div class="col-12 ">
+                    <p class="mbr-text mb-0 mbr-fonts-style display-7 ">
                         © 2024 Nutek Group. All Rights Reserved.
                     </p>
                 </div>
@@ -2884,17 +1831,17 @@
         </div>
     </section>
 
-    <script src="assets/parallax/jarallax.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-    <script src="assets/scrollgallery/scroll-gallery.js"></script>
-    <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>
-    <script src="assets/embla/embla.min.js"></script>
-    <script src="assets/embla/script.js"></script>
-    <script src="assets/smoothscroll/smooth-scroll.js"></script>
-    <script src="assets/ytplayer/index.js"></script>
-    <script src="assets/theme/js/script.js"></script>
-    <script src="assets/formoid/formoid.min.js"></script>
+    <script src="assets/parallax/jarallax.js "></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <script src="assets/dropdown/js/navbar-dropdown.js "></script>
+    <script src="assets/scrollgallery/scroll-gallery.js "></script>
+    <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js "></script>
+    <script src="assets/embla/embla.min.js "></script>
+    <script src="assets/embla/script.js "></script>
+    <script src="assets/smoothscroll/smooth-scroll.js "></script>
+    <script src="assets/ytplayer/index.js "></script>
+    <script src="assets/theme/js/script.js "></script>
+    <script src="assets/formoid/formoid.min.js "></script>
 
     <script>
         (function() {

@@ -52,7 +52,7 @@
 								<li class="cs-li cs-dropdown" tabindex="0">
 									<span class="cs-li-link">
 										Services
-										 <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/down-gold.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+										<img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/down-gold.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
 									</span>
 									<ul class="cs-drop-ul">
 										<li class="cs-drop-li">
@@ -103,25 +103,9 @@
 					</button>-->
 				</div>
 			</header>
-				<!--image carousel start-->
-					<div class="containers">
-							<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
-								<!-- Wrapper for slides -->
-								<div class="carousel-inner" role="listbox">
-
-									<div class="carousel-item active">
-										<img src="images/Slide0.jpg" alt="Nutek0" width="2000" height="500">
-										<div class="carousel-caption">
-											<h3>Electrical and Construction Projects</h3>
-											<p> We offer expertise in electrical panel design and wiring solutions. We deliver reliable and efficient electrical solutions for various industrial and commercial needs.</p>
-										</div>
-									</div>
-							</div>
-						</div>
-					</div>
-					<div class="containers">
-						<p><br></p>
-				    </div>
+			<div class="containers">
+				<p><br></p>
+			</div>
 			<!-- ============================================ -->
 			<!--                Why Choose Us                 -->
 			<!-- ============================================ -->
